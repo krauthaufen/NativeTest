@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+redirects: off
+framework: net6.0
+storage: none
+
+nuget FSharp.Core >= 6.0.0 lowest_matching: true
+nuget SharpZipLib ~> 1.3.3
+nuget Mono.Cecil ~> 0.11.4
