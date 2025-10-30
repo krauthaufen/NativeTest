@@ -5,6 +5,7 @@ owners krauthaufen
 description
     A tool to inspect and extract native dependencies from .NET assemblies and NuGet packages
 licenseExpression MIT
+licenseUrl https://licenses.nuget.org/MIT
 projectUrl https://github.com/krauthaufen/NativeTest
 repositoryUrl https://github.com/krauthaufen/NativeTest
 repositoryType git
