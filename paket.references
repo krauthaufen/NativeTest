@@ -1,3 +1,5 @@
 FSharp.Core
 Mono.Cecil
 SharpZipLib
+Aardvark.Build
+Argu

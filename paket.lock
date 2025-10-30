@@ -1,8 +1,17 @@
 REDIRECTS: OFF
 STORAGE: NONE
-RESTRICTION: == net6.0
+RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    Aardvark.Build (2.0.5)
+    Argu (6.2.5)
+      FSharp.Core (>= 6.0)
+      System.Configuration.ConfigurationManager (>= 4.4)
     FSharp.Core (6.0)
-    Mono.Cecil (0.11.4)
+    Mono.Cecil (0.11.6)
     SharpZipLib (1.3.3)
+    System.Configuration.ConfigurationManager (9.0.10)
+      System.Diagnostics.EventLog (>= 9.0.10)
+      System.Security.Cryptography.ProtectedData (>= 9.0.10)
+    System.Diagnostics.EventLog (9.0.10)
+    System.Security.Cryptography.ProtectedData (9.0.10)

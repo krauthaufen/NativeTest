@@ -1,0 +1,26 @@
+type file
+id NativeTest
+authors schorsch
+owners krauthaufen
+description
+    A tool to inspect and extract native dependencies from .NET assemblies and NuGet packages
+licenseExpression MIT
+projectUrl https://github.com/krauthaufen/NativeTest
+repositoryUrl https://github.com/krauthaufen/NativeTest
+repositoryType git
+tags native dependencies extraction tool dotnet-tool
+include-pdbs true
+packageTypes DotnetTool
+files
+    bin/Release/net8.0/NativeTest.dll ==> tools/net8.0/any
+    bin/Release/net8.0/NativeTest.runtimeconfig.json ==> tools/net8.0/any
+    bin/Release/net8.0/NativeTest.deps.json ==> tools/net8.0/any
+    bin/Release/net8.0/Argu.dll ==> tools/net8.0/any
+    bin/Release/net8.0/FSharp.Core.dll ==> tools/net8.0/any
+    bin/Release/net8.0/ICSharpCode.SharpZipLib.dll ==> tools/net8.0/any
+    bin/Release/net8.0/Mono.Cecil.dll ==> tools/net8.0/any
+    bin/Release/net8.0/Mono.Cecil.Pdb.dll ==> tools/net8.0/any
+    bin/Release/net8.0/Mono.Cecil.Mdb.dll ==> tools/net8.0/any
+    bin/Release/net8.0/Mono.Cecil.Rocks.dll ==> tools/net8.0/any
+    bin/Release/net8.0/System.*.dll ==> tools/net8.0/any
+    Readme.md ==> .

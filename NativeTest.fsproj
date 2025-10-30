@@ -2,10 +2,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <PackAsTool>true</PackAsTool>
+    <ToolCommandName>native-test</ToolCommandName>
+    <PackageId>NativeTest</PackageId>
+    <Authors>schorsch</Authors>
+    <Description>A tool to inspect and extract native dependencies from .NET assemblies and NuGet packages</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/krauthaufen/NativeTest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/krauthaufen/NativeTest</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>native;dependencies;extraction;tool</PackageTags>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="paket.dependencies" />
+    <None Include="paket.lock" />
+    <None Include="paket.references" />
+    <None Include="paket.template" />
+    <None Include="RELEASE_NOTES.md" />
+    <None Include="Readme.md" Pack="true" PackagePath="\" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <Import Project=".paket\Paket.Restore.targets" />
