@@ -19,6 +19,7 @@
     <None Include="paket.lock" />
     <None Include="paket.references" />
     <None Include="paket.template" />
+    <None Include="DotnetToolSettings.xml" />
     <None Include="RELEASE_NOTES.md" />
     <None Include="Readme.md" Pack="true" PackagePath="\" />
     <Compile Include="Program.fs" />

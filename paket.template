@@ -13,6 +13,7 @@ tags native dependencies extraction tool dotnet-tool
 include-pdbs true
 packageTypes DotnetTool
 files
+    DotnetToolSettings.xml ==> tools/net8.0/any
     bin/Release/net8.0/NativeTest.dll ==> tools/net8.0/any
     bin/Release/net8.0/NativeTest.runtimeconfig.json ==> tools/net8.0/any
     bin/Release/net8.0/NativeTest.deps.json ==> tools/net8.0/any
